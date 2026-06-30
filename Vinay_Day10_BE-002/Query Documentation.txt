@@ -1,0 +1,14 @@
+ Operation         | SQL Query                                                                      
+ ----------------- | ------------------------------------------------------------------------------ 
+ Student Insert    | INSERT INTO students(name,email,course) VALUES($1,$2,$3)                       
+ Student Select    | SELECT * FROM students                                                         
+ Student Update    | UPDATE students SET name=$1,email=$2,course=$3 WHERE id=$4                     
+ Student Delete    | DELETE FROM students WHERE id=$1                                               
+ Product Insert    | INSERT INTO products(product_name,price,quantity) VALUES($1,$2,$3)             
+ Product Select    | SELECT * FROM products                                                        
+ Product Update    | UPDATE products SET product_name=$1,price=$2,quantity=$3 WHERE id=$4           
+ Product Delete    | DELETE FROM products WHERE id=$1                                               
+ Attendance Insert | INSERT INTO attendance(student_name,status,attendance_date) VALUES($1,$2,$3)   
+ Attendance Select | SELECT * FROM attendance                                                       
+ Attendance Update | UPDATE attendance SET student_name=$1,status=$2,attendance_date=$3 WHERE id=$4 
+ Attendance Delete | DELETE FROM attendance WHERE id=$1                                             
